@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedev</title>
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./pokedev.css">
+    <link rel="stylesheet" href="./responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <div class="pokedevs">
+            <div class="cartoes-pokedevs">
+
+                <nav class="listagem">
+                    <ul>
+                        <li class="pokedev ativo" id="devchu">
+                            <img src="./src/img/devchu.png" alt="devchu">
+                            <span>devchu</span>
+                        </li>
+
+                        <li class="pokedev charmandev ativo" id="charmandev">
+                            <img src="./src/img/charmandev.png" alt="charmandev">
+                            <span>charmandev</span>
+                        </li>
+
+                        <li class="pokedev codevee" id="codevee">
+                            <img src="./src/img/codevee.png" alt="codevee">
+                            <span>codevee</span>
+                        </li>
+
+                        <li class="pokedev devlypuff" id="devlypuff">
+                            <img src="./src/img/devlypuff.png" alt="devlypuff">
+                            <span>devlypuff</span>
+                        </li>
+
+                        <li class="pokedev psycoder" id="psycoder">
+                            <img src="./src/img/psycoder.png" alt="psycoder">
+                            <span>psycoder</span>
+                        </li>
+
+                        <li class="pokedev scriptle" id="scriptle">
+                            <img src="./src/img/scriptle.png" alt="scriptle">
+                            <span>scriptle</span>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="cartao-pokedev tipo-eletrico aberto" id="cartao-devchu">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">devchu</h2>
+                            <span>#001</span>
+                        </div>
+                        <span class="tipo">eletrico</span>
+                        <div>
+                            <img src="./src/img/devchu.png" alt="devchu">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>descrição</h3>
+                            <p>Quando se depara com um erro de código fica bastante irritado, prestes a lançar raios
+                                pelos dedos. Mas em vez de se deixar abater, cada linha de código é examinada sem
+                                descaso para que seja corrigida.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokedev tipo-fogo" id="cartao-charmandev">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">charmandev</h2>
+                            <span>#002</span>
+                        </div>
+                        <span class="tipo">Fogo</span>
+                        <div>
+                            <img src="./src/img/charmandev.png" alt="charmandev" class="Imagem-charmandev">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>descrição</h3>
+                            <p>Esse pokedev deixa a chama de aprendizado se apagar! Está sempre se atualizando, pois sabe que um bom desenvolvedor deve ser resiliente e adaptável às mudanças constantes no mundo da tecnologia, estando sempre apto a aprender novos conhecimentos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokedev tipo-fogo" id="cartao-codevee">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">codevee</h2>
+                            <span>#003</span>
+                        </div>
+                        <span class="tipo">Fogo</span>
+                        <div>
+                            <img src="./src/img/codevee.png" alt="codevee">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>descrição</h3>
+                            <p>Sua capacidade de evoluir constantemente permite que possa se manifestar e ser eficiente em qualquer ambiente de desenvolvimento. Isso reflete sua capacidade e flexibilidade em aprendizagem.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokedev tipo-fada" id="cartao-devlypuff">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">devlypuff</h2>
+                            <span>#004</span>
+                        </div>
+                        <span class="tipo">Fada</span>
+                        <div class="cartao-imagem">
+                            <img src="./src/img/devlypuff.png" alt="devlypuff">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>descrição</h3>
+                            <p>A expressão "trabalhe enquanto eles dormem" poderia ser facilmente criada por esse pokedev. Afinal ele tem o dom de codar por horas e horas, regado a muito café e energéticos. Sua capacidade é tão imensa que enquanto eles dormem, ele está criando várias linhas de códigos e resolvendo problemas a todo instante.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokedev tipo-agua" id="cartao-psycoder">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">psycoder</h2>
+                            <span>#005</span>
+                        </div>
+                        <span class="tipo">Água</span>
+                        <div>
+                            <img src="./src/img/psycoder.png" alt="psycoder">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>descrição</h3>
+                            <p>Um pokedev sênior constantemente atormentado por uma dor de cabeça intensa. Quando se torna intensa demais, consegue acessar habilidades de programação extraordinárias, resolvendo problemas complexos.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokedev tipo-agua" id="cartao-scriptle">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">scriptle</h2>
+                            <span>#006</span>
+                        </div>
+                        <span class="tipo">Água</span>
+                        <div>
+                            <img src="./src/img/scriptle.png" alt="scriptle">
+                        </div>
+                    </div>
+                    <div class="cartao-informacoes">
+                        <div class="descricao">
+                            <h3>descrição</h3>
+                            <p>Mesmo sendo programador iniciante, esse pokedev já domina habilidades fundamentais como: depurar o código, manipulação do DOM, trabalhar com APIs, conhecimentos de frameworks e bibliotecas, tornando o código mais eficiente.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
+
+
+    <script src="./script.js">
+
+
+
+        Copiar
+        const listaSelecaoPokedevs = document.querySelectorAll('.pokedev');
+
+        listaSelecaoPokedevs.forEach(pokedev => {
+            pokedev.addEventListener("click", () => {
+                esconderCartaoPokedev();
+
+                const idPokedevSelecionado = mostrarCartaoPokedevSelecionado(pokedev);
+                esconderPokedevNaListagem();
+                ativarPokedevSelecionadoNaListagem(idPokedevSelecionado);
+            });
+        });
+
+        function ativarPokedevSelecionadoNaListagem(idPokedevSelecionado) {
+            const pokedevSelecionadoNaListagem = document.getElementById(idPokedevSelecionado);
+            pokedevSelecionadoNaListagem.classList.add("ativo");
+        }
+
+        function esconderPokedevNaListagem() {
+            const pokedevAtivoNaListagem = document.querySelector(".ativo");
+            if (pokedevAtivoNaListagem) {
+                pokedevAtivoNaListagem.classList.remove("ativo");
+            }
+        }
+
+        function mostrarCartaoPokedevSelecionado(pokedev) {
+            const idPokedevSelecionado = pokedev.attributes.id.value;
+            const idDoCartaoPokedevParaAbrir = "cartao-" + idPokedevSelecionado;
+            const cartaoPokedevParaAbrir = document.getElementById(idDoCartaoPokedevParaAbrir);
+            cartaoPokedevParaAbrir.classList.add("aberto");
+            return idPokedevSelecionado;
+        }
+
+        function esconderCartaoPokedev() {
+            const cartaoPokedevAberto = document.querySelector(".aberto");
+            if (cartaoPokedevAberto) {
+                cartaoPokedevAberto.classList.remove("aberto");
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
